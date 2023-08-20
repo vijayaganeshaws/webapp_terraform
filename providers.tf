@@ -8,6 +8,11 @@ terraform {
   }
 }
 
+# Configure S3 backend
+terraform {
+    backend "s3" {}
+}
+
 # Configure the AWS Provider region
 provider "aws" {
   region = "eu-west-2"

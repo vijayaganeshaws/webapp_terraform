@@ -29,7 +29,7 @@ resource "aws_autoscaling_group" "webapp-asg" {
 
   tag {
     key = "Name"
-    value = "webapp--poc"
+    value = "webapp-poc"
     propagate_at_launch = true
   }
 }

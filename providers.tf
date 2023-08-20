@@ -12,7 +12,7 @@ terraform {
 terraform {
   backend "s3" {
     bucket = "webapp-tfstatebucket"
-    key    = "terraform.tfstate"
+    key    = "webapp/dev/terraform.tfstate"
     region = "eu-west-2"
   }
 }
